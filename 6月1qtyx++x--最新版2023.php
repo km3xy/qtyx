@@ -204,10 +204,138 @@ return false;
 <?php
   
   
+  //可以手工输入位数位数
+
+$x=$_POST['cc'];  
+$x2=join($x);   
+
+
+
+//可以手工输入位数位数
+
+
+ $array_name5=array_rand($result,$x2);   
+
+
+sort($array_name5);
+
+$join5=join("  +  ", $array_name5);
+
+
+echo $join5;
+
+
+
+//         以下是后区代码
+
+
+
+$b=$_POST["b"];
+
+
+
+$result2=array_flip($b);//交换数组的键和值
+
+//input text 传过来的是值
+
+//array_rand  随机的是键名
+
+
+//把值变成键
+
+
+//$result=array_flip($a);//交换数组的键和值
+
+
+
+ $array_name2=array_rand($result2,2);   
+
+
+sort($array_name2);
+
+$join2=join("  +  ", $array_name2);
+
+
+echo $join2;
+
+
+//分隔区
+
+
+
+
+echo "<hr>";
+
+
+$a=$_POST["aa"];
+
+//["a"]是数组名称
+
+
+
+$result=array_flip($a);//交换数组的键和值
+
+//input text 传过来的是值
+
+//array_rand  随机的是键名
+
+
+//把值变成键
+
+
+//$result=array_flip($a);//交换数组的键和值
+
+
+echo "<br>";
+
+
+
+
+ $array_name5=array_rand($result,1);   
+
+
+sort($array_name5);
+
+
+$age=array("Peter"=>$array_name5);
+//
+
+$xy=join("",$age);
+
+
+//echo $xy;
+
+
+
+
+//         以下是后区代码
+
+
+
+$b=$_POST["bb"];
+
+
+
+$result2=array_flip($b);//交换数组的键和值
+
+//input text 传过来的是值
+
+//array_rand  随机的是键名
+
+
+//把值变成键
+
+
+//$result=array_flip($a);//交换数组的键和值
+
+
+//代码片段3
+  
+//更多代码  
   
   
   
-  
+  ?>
   
   
   
