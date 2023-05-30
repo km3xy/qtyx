@@ -1,3 +1,25 @@
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<title>
+
+input免输入版ms5新增x++x--，请选择上期码  
+
+</title>
+
+<script src="jquery-3.4.1/jquery-3.4.1.min.js"></script>
+
+<script type="text/javascript" src="jquery.min.js"></script>
+
+<style>
+
+div {display: inline;}
+
+</style>
+
 
 
 
