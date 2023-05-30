@@ -167,7 +167,66 @@ return false;
 });
 </script>
 
+//代码片段2设定位数值
+  
+  
+  /#//选择前区位数值
 
+<div id="InputsWrapper">
+
+<div><input    list="browsers" style="font-size:30px;color:#FF0000"  type="text"name="cc[]" id="cc" value=""/>
+
+
+
+<datalist id="browsers">
+ 
+ 
+
+ <option value="5">
+  
+<option value="6">
+
+  <option value="7">
+
+
+  
+
+</datalist>
+
+
+
+<a href="#" rel="external nofollow" rel="external nofollow" rel="external nofollow" class="removeclass"><input  style="font-size:30px;color:#FF0000"  type='button' value='删除'></a></div>
+</div>
+
+/#//选择前区位数值
+
+
+<?php
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 
 
