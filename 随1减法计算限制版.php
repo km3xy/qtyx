@@ -1,13 +1,60 @@
+
+
+<label>
+    
+
+
+<input type="checkbox" 
+
+
+ name="c[心静];" id="red" value="#心静">#心静，请装入上期号码5位
+
+ </label>
+
+
+
+<h1>
+    
+    
+    
+
+/#//5－4=1多态1号版
+
+<div id="InputsWrapper">
+
+<div><b><input  list="browsers" style="font-size:30px;color:#FF0000"  type="text"name="cc[]" id="cc" value="4"/>
+
+
+
+<datalist id="browsers">
+ 
+ <option value="2">
+
+ <option value="3">
+     
+ 
+ <option value="4">
+ 
+<option value="5">
+  
+<option value="6">
+
+  
+
+
+</datalist>
+
+
+
+<a href="#" rel="external nofollow" rel="external nofollow" rel="external nofollow" class="removeclass"><input  style="font-size:30px;color:#FF0000"  type='button' value='删除'></a></div>
+</div>
+
+
+
 <?php
 
 
-
-
 error_reporting(E_ALL^E_NOTICE^E_WARNING);     //php关闭错误报告
-
-
-
-
 
 
 /*
@@ -31,8 +78,6 @@ echo "<br>";
 
 
 //$arr3=$_POST['c'];   //把c数组赋值给arr4
-
-
 
 
 
@@ -424,13 +469,6 @@ else
 echo  "<br>";
 
 
-
-
-
-
-
-
-
 echo "<br>";
 
 echo "<br>";
@@ -460,10 +498,7 @@ echo "   ";
 $join2=join("    ", $array_name);
 
 
-
-
-
-
+ 
 
 echo $join2;    //输出结果集
 
